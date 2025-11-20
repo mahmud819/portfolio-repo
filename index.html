@@ -16,61 +16,82 @@
   <body>
     <!-- navbar html -->
 
-    <div class="navbar bg-base-100 shadow-sm px-8">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+    <section class="hero-navbar px-8 relative">
+      <!-- navbar div -->
+
+      <div class="navbar bg-base-100 pt-4 pl-22">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="-1"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
+              <li><a>About Me</a></li>
+              <li><a>My Projects</a></li>
+              <li><a>Contact Me</a></li>
+            </ul>
           </div>
-          <ul
-            tabindex="-1"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          <a class="btn btn-ghost text-2xl"
+            ><span class="text-[#FD6E0A]">M</span
+            ><span class="-ml-1">ahmudu</span
+            ><span class="text-[#FD6E0A] -ml-1">r</span></a
           >
-            <li><a>Item 1</a></li>
-            <li>
-              <a>Parent</a>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
-          </ul>
         </div>
-        <a class="btn btn-ghost text-xl">daisyUI</a>
+
+        <div class="navbar-end">
+          <div class="">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>About Me</a></li>
+              <li><a>My Projects</a></li>
+              <li><a>Contact Me</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-primary">Hire Me</a>
+        </div>
       </div>
 
-      <!-- <div class="navbar-end hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-          <li><a>Item 3</a></li>
-        </ul>
-      </div> -->
-
-      <div class="navbar-end">
-        <div class="">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>About Me</a></li>
-            <li><a>My Projects</a></li>
-            <li><a>Contact Me</a></li>
-          </ul>
-        </div>
-        <a class="btn btn-primary">Hire Me</a>
+      <!-- developer image div -->
+      <div class="pt-2 absolute -top-2 left-6 w-20 h-20">
+        <img class="py-4 w-full" src="./images/developer.png" alt="" />
       </div>
-    </div>
+    </section>
+
+    <!-- hero section html -->
+
+    <section class="hero-section flex flex-row pl-34">
+      <div>
+        <h4>Hi, I am</h4>
+        <h1>Mahmudur</h1>
+        <p class="banner-description">
+          Shot what able cold new see hold.Friendly as an betrayed formerly he.
+          Morning because as to society behaved moments.
+        </p>
+        <button class="btn-primary">
+          <i class="fa-solid fa-download"></i> Download CV
+        </button>
+        <button class="btn-primary">
+          <i class="fa-solid fa-phone"></i> Contact
+        </button>
+      </div>
+      <div>
+        <img src="./images/hardy.png" alt="" />
+      </div>
+    </section>
   </body>
 </html>
