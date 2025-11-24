@@ -99,3 +99,9 @@
     font-weight: bold;
     color: #181818;
 }
+@media screen and (max-width:640px) {
+    .secondary-title{
+    font-size: 22px;
+    
+}
+}
