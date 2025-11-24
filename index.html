@@ -20,10 +20,10 @@
   <body>
     <!-- navbar html -->
 
-    <section class="hero-navbar px-8 relative">
+    <section class="hero-navbar relative lg:px-8 ">
       <!-- navbar div -->
 
-      <div class="navbar bg-base-100 pt-4 pl-22">
+      <div class="navbar bg-base-100 lg:pt-4 lg:pl-22">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@
               <li><a href="#footer">Contact Me</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-2xl"
+          <a class="xsm:text-lg sm:text-2xl btn btn-ghost lg:text-2xl"
             ><span class="text-[#FD6E0A]">M</span
             ><span class="-ml-1">ahmudu</span
             ><span class="text-[#FD6E0A] -ml-1">r</span></a
@@ -60,7 +60,7 @@
 
         <div class="navbar-end">
           <div class="">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 hidden lg:flex lg:block">
               <li><a href="#about-section">About Me</a></li>
               <li><a>My Projects</a></li>
               <li><a href="#footer">Contact Me</a></li>
@@ -71,20 +71,20 @@
       </div>
 
       <!-- developer image div -->
-      <div class="pt-2 absolute -top-1 left-6 h-144">
+      <div class="hidden lg:block pt-2 absolute -top-1 left-6 h-144">
         <img class="py-4 h-[100%]" src="./images/developer.png" alt="" />
       </div>
     </section>
 
     <!-- hero section html -->
 
-    <section class="hero-section bg-size-[60%] pl-34">
+    <section class="hero-section bg-size-[168%] lg:bg-size-[50%] lg:pl-34">
       <!-- hero div -->
-      <div class="flex flex-row pt-8">
+      <div class="flex flex-col lg:flex-row  lg:pt-8">
         <!-- hero content -->
-        <div class="w-3/4 my-auto">
-          <h4 class="text-2xl">Hi, I am</h4>
-          <h1 class="text-6xl py-4">Mahmudur</h1>
+        <div class="w-full p-4 lg:w-3/4 lg:my-auto">
+          <h4 class="text-xl lg:text-2xl">Hi, I am</h4>
+          <h1 class="text-4xl lg:text-6xl py-4">Mahmudur</h1>
           <p class="banner-description py-4">
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
@@ -95,7 +95,7 @@
             <button class="btn-secondary">
               <i class="fa-solid fa-download"></i> Download CV
             </button>
-            <button class="btn-secondary">
+            <button class="btn-secondary ml-2">
               <i class="fa-solid fa-phone"></i> Contact
             </button>
           </div>
@@ -104,8 +104,9 @@
         <!-- hero image -->
 
         <div class="px-4">
-          <img src="./images/mahmud.jpeg" alt="" />
+          <img src="./images/mahmudur.png" alt="" />
         </div>
+
       </div>
     </section>
 
@@ -113,7 +114,7 @@
 
     <section
       id="about-section"
-      class="about-section min-h-screen bg-gradient-to-b from-[#fff] to-[#f7ddc3d4]"
+      class="hidden about-section min-h-screen bg-gradient-to-b from-[#fff] to-[#f7ddc3d4]"
     >
       <!-- <div class="bg-gradient-to-b from-[#FD5E0A]  to-[#FD6E0A]"></div> -->
       <div class="w-[80%] px-4 mx-auto my-auto py-[10%] text-center">
@@ -150,7 +151,7 @@
     <!-- experience section -->
 
     <section
-      class="experience-section min-h-screen bg-gradient-to-b from-[#f7ddc3d4] to-[#fff]"
+      class="hidden experience-section min-h-screen bg-gradient-to-b from-[#f7ddc3d4] to-[#fff]"
     >
       <!-- experience section main div -->
       <div class="w-[80%] px-4 mx-auto my-auto py-[10%] text-center">
@@ -216,7 +217,7 @@
 
     <!-- Resume section -->
 
-    <section class="resume-section">
+    <section class="hidden resume-section">
       <!-- resume main div -->
       <div class="px-12 py-8">
         <h1 class="text-6xl text-center font-bold">A Summary of My Resume</h1>
@@ -306,7 +307,7 @@
 
     <!-- footer section html -->
 
-    <section id="footer" class="footer-section bg-[#f7ddc3d4]">
+    <section id="footer" class="hidden footer-section bg-[#f7ddc3d4]">
       <!-- footer main div -->
        <div class="px-16 py-8 flex justify-between">
         <!-- footer logo div-->
