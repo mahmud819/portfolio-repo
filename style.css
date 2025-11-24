@@ -33,8 +33,9 @@
     border-radius: 5px;
     /* margin-top: 10px; */
 }
-  @media screen and (max-width:330px) {
+  @media screen and (max-width:640px) {
     .btn-primary{
+    /* width: 90%; */
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 5px;
