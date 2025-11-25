@@ -20,7 +20,7 @@
   <body>
     <!-- navbar html -->
 
-    <section class="hero-navbar relative lg:px-8 ">
+    <section class="hero-navbar relative lg:px-8">
       <!-- navbar div -->
 
       <div class="navbar bg-base-100 lg:pt-4 lg:pl-22">
@@ -47,8 +47,10 @@
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li><a href="#about-section">About Me</a></li>
-              <li><a>My Projects</a></li>
-              <li><a href="#footer">Contact Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="services">Services</a></li>
+              <li><a>Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             </ul>
           </div>
           <a class="xsm:text-lg sm:text-2xl btn btn-ghost lg:text-2xl"
@@ -58,15 +60,17 @@
           >
         </div>
 
-        <div class="navbar-end">
+        <div class="navbar ml-12 lg:ml-16">
           <div class="">
             <ul class="menu menu-horizontal px-1 hidden lg:flex lg:block">
               <li><a href="#about-section">About Me</a></li>
-              <li><a>My Projects</a></li>
-              <li><a href="#footer">Contact Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a>Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             </ul>
           </div>
-          <a class="btn btn-primary">Hire Me</a>
+          <a href="https://drive.google.com/drive/folders/18Kv3xRSodNOERgF5bR9aPTaTjKsysggi" class="btn btn-primary">Hire Me</a>
         </div>
       </div>
 
@@ -80,24 +84,29 @@
 
     <section class="hero-section bg-size-[168%] lg:bg-size-[50%] lg:pl-34">
       <!-- hero div -->
-      <div class="flex flex-col lg:flex-row  lg:pt-8">
+      <div class="flex flex-col lg:flex-row lg:pt-8">
         <!-- hero content -->
         <div class="w-full p-4 lg:w-3/4 lg:my-auto">
           <h4 class="text-xl lg:text-2xl">Hi, I am</h4>
           <h1 class="text-4xl lg:text-6xl py-4">Mahmudur</h1>
           <p class="banner-description py-4">
-            Shot what able cold new see hold.Friendly as an betrayed formerly
-            he. Morning because as to society behaved moments.
+            I’m a MERN full-stack developer focused on building clean, efficient, and scalable web applications. Even as a beginner, I enjoy solving problems and bringing ideas to life through code. From interactive front-end interfaces to powerful back-end APIs, I’m constantly improving my skills to deliver reliable and modern web solutions.
           </p>
 
           <!-- hero button -->
           <div class="pt-4">
-            <button class="btn-secondary">
-              <i class="fa-solid fa-download"></i> Download CV
-            </button>
-            <button class="btn-secondary ml-2">
-              <i class="fa-solid fa-phone"></i> Contact
-            </button>
+            <a
+              href="https://drive.google.com/drive/folders/18Kv3xRSodNOERgF5bR9aPTaTjKsysggi"
+              ><button class="btn-secondary">
+                <i class="fa-solid fa-download"></i> Download CV
+              </button>
+            </a>
+
+            <a href="#contact">
+              <button class="btn-secondary ml-2">
+                <i class="fa-solid fa-phone"></i> Contact
+              </button>
+            </a>
           </div>
         </div>
 
@@ -106,7 +115,6 @@
         <div class="px-4">
           <img src="./images/mahmudur.png" alt="" />
         </div>
-
       </div>
     </section>
 
@@ -142,8 +150,8 @@
 
           <!-- birth date div -->
           <div class="mt-4 lg:mt-0">
-            <p class="section-description">Date of Birth:</p>
-            <h2 class="section-title">09-04-1996</h2>
+            <p class="section-description">Phone:</p>
+            <h2 class="section-title">01952053431</h2>
           </div>
 
           <!-- address div -->
@@ -151,6 +159,128 @@
             <p class="section-description">From</p>
             <h2 class="section-title">Dhaka, Bangladesh</h2>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill section -->
+
+    <section
+      id="skills"
+      class="py-16 bg-gradient-to-b from-[#f7ddc3d4] to-[#fff]"
+    >
+      <h2 class="text-4xl font-bold text-center mb-10">My Skills</h2>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-11/12 mx-auto"
+      >
+        <div class="bg-white p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Frontend</h3>
+          <ul class="space-y-1 text-gray-700">
+            <li>HTML5</li>
+            <li>CSS3 / Tailwind CSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Responsive UI</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Backend</h3>
+          <ul class="space-y-1 text-gray-700">
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST API</li>
+            <li>Authentication (JWT)</li>
+            <li>Middleware</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Database</h3>
+          <ul class="space-y-1 text-gray-700">
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>Aggregation</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-blue-600 mb-3">Tools</h3>
+          <ul class="space-y-1 text-gray-700">
+            <li>Git / GitHub</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+            <li>Cloud Deployment</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section
+      id="services"
+      class="py-16 bg-gradient-to-b from-[#fff] to-[#f7ddc3d4]"
+    >
+      <h2 class="text-4xl font-bold text-center mb-10">My Services</h2>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-11/12 mx-auto"
+      >
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            Full-Stack Web Development
+          </h3>
+          <p class="text-gray-700 text-sm">
+            I build complete MERN stack applications from frontend to backend.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            Frontend Development
+          </h3>
+          <p class="text-gray-700 text-sm">
+            Modern UI using React.js, Tailwind CSS, clean components &
+            animations.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            Backend API Development
+          </h3>
+          <p class="text-gray-700 text-sm">
+            Secure REST APIs with authentication, validation, and performance.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            MongoDB Database Design
+          </h3>
+          <p class="text-gray-700 text-sm">
+            Schema design, indexing & optimized data flow for scalable apps.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            Real-Time Apps
+          </h3>
+          <p class="text-gray-700 text-sm">
+            Chat systems, notifications & live updates using Socket.IO.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-xl shadow card-hover">
+          <h3 class="text-xl font-semibold text-orange-600 mb-3">
+            Deployment & Hosting
+          </h3>
+          <p class="text-gray-700 text-sm">
+            Deploying apps on Vercel, Netlify, Render, Railway & MongoDB Atlas.
+          </p>
         </div>
       </div>
     </section>
@@ -164,7 +294,7 @@
       <div class="w-[90%] lg:w-[80%] px-4 mx-auto my-auto py-[10%] text-center">
         <h1 class="text-2xl lg:text-6xl">What I do</h1>
         <p class="py-8">
-          I have more than 10 years experience building software for clients all
+          I have more than one years experience building software for clients all
           over the world. Below is a quick overview of my main technical skill
           sets and technologies i use. Want to find out more about my
           experience? Check out my online resume and project portfolio.
@@ -173,49 +303,41 @@
         <div class="grid grid-cols-1 gap-y-4 lg:grid-cols-4 lg:gap-x-2">
           <!-- js card -->
 
-          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left">
+          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left card-hover">
             <img src="./images/js.png" alt="javaScript icon" />
             <h2 class="section-title py-2">Vanilla JavaScript</h2>
             <p class="section-description py-2">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+             I have a good understanding of JavaScript basics, including ES6 features, DOM handling, and writing clean, functional code.
             </p>
           </div>
 
           <!-- react card -->
 
-          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left">
+          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left card-hover">
             <img src="./images/react.png" alt="react icon" />
             <h2 class="section-title">React</h2>
             <p class="section-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              I build responsive UI components using React, working with hooks, props, and state to create smooth user experiences.
             </p>
           </div>
 
           <!-- node.js card -->
 
-          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left">
+          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left card-hover">
             <img src="./images/nodejs.png" alt="node js icon image" />
             <h2 class="section-title">Node.js</h2>
             <p class="section-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              I create simple REST APIs using Node.js and Express, handling routes, middleware, and backend logic.
             </p>
           </div>
 
           <!-- mongodb card -->
 
-          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left">
+          <div class="w-[100%] bg-[#fff] rounded-md p-2 text-left card-hover">
             <img src="./images/mongo.png" alt="mongoDB image" />
             <h2 class="section-title">MongoDB</h2>
             <p class="section-description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
+              I work with MongoDB for storing and managing data, using CRUD operations and connecting databases to my backend.
             </p>
           </div>
         </div>
@@ -227,7 +349,9 @@
     <section class="resume-section">
       <!-- resume main div -->
       <div class="px-4 lg:px-12 py-8">
-        <h1 class="text-2xl lg:text-6xl text-center font-bold">A Summary of My Resume</h1>
+        <h1 class="text-2xl lg:text-6xl text-center font-bold">
+          A Summary of My Resume
+        </h1>
         <!-- summary div -->
         <div class="flex flex-col lg:flex-row lg:justify-evenly px-4 pt-20">
           <!-- education div -->
@@ -242,9 +366,7 @@
                 Sonargoan University 2017-2020
               </h3>
               <p class="py-4 font-[#757575]">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
+               I hold a BSc in Electrical and Electronic Engineering, where I learned the fundamentals of circuits, electronics, and technical problem-solving. This background helps me think logically and approach challenges with a structured mindset.
               </p>
               <hr class="mt-2 font-[#757875]" />
             </div>
@@ -255,9 +377,7 @@
                 Daudpur Degree College 2012-2014
               </h3>
               <p class="py-4 font-[#757575]">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
+                I completed my HSC in Science with a focus on physics, chemistry, and mathematics. It helped build my problem-solving abilities and boosted my interest in technical fields.
               </p>
               <hr class="mt-2 font-[#757875]" />
             </div>
@@ -268,9 +388,7 @@
                 Daudpur M.L High School 2010-2012
               </h3>
               <p class="py-4 font-[#757575]">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
+                I passed my SSC in Science with a focus on mathematics and general science, which helped develop my logical thinking and motivated me to continue studying in the science stream.
               </p>
             </div>
           </div>
@@ -283,20 +401,16 @@
               <h1 class="section-title">MERN Full Stuck Web Development</h1>
               <h3 class="py-2 font-[#757775]">Programming Hero 2024</h3>
               <p class="py-4 font-[#757575]">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
+                Completed my first MERN full-stack web development training through an online platform, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js. Learned front-end development, REST API creation, backend logic, and database integration, building a strong foundation for full-stack application development.
               </p>
               <hr class="mt-2 font-[#757875]" />
             </div>
             <!-- second training -->
             <div class="pt-4">
-              <h1 class="section-title">MERN Web Development</h1>
+              <h1 class="section-title">MERN Full Stuck Web Development</h1>
               <h3 class="py-2 font-[#757775]">InterActive Care Ongoing</h3>
               <p class="py-4 font-[#757575]">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor.
+                Completed my second MERN full-stack web development training, gaining advanced hands-on experience in MongoDB, Express.js, React.js, and Node.js. Focused on full-stack application development, API integration, authentication, and database optimization, strengthening my skills to build professional web applications.
               </p>
             </div>
           </div>
@@ -304,45 +418,103 @@
 
         <!-- download button -->
         <div class="flex justify-center items-center py-6">
-          <button class="w-[90%] lg:w-[30%] btn-secondary">
-            <i class="fa-solid fa-download"></i> Download CV
-          </button>
+          <a class="w-[90%] lg:w-[30%] btn-secondary" href="https://drive.google.com/drive/folders/18Kv3xRSodNOERgF5bR9aPTaTjKsysggi">
+            
+            <i class="fa-solid fa-download pl-10"></i> Download CV
+          
+          </a>
+          
         </div>
       </div>
+    </section>
 
+    <!-- contact section -->
+
+    <section id="contact" class="bg-gradient-to-b from-[#f7ddc3d4] to-[#fff]">
+      <div class="flex flex-col min-h-screen">
+        <div class="mx-auto">
+          <img
+            src="https://i.ibb.co/b2vgf5J/Animation-1725604899796.gif"
+            alt=""
+          />
+        </div>
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-2xl lg:text-5xl font-bold">Contact with Me</h1>
+            <p class="py-6">
+              I am frontend web developer. I can build and debug website. For
+              hire and any quieris, Please contact with me...
+            </p>
+            <div class="text-left mx-auto inline-block">
+              <p>gmail : mahmudurr819@gmail.com</p>
+              <p>Phone : 01952053431</p>
+              <p>Location : Dinajpur, Bangladesh</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- footer section html -->
 
     <section id="footer" class="footer-section bg-[#f7ddc3d4]">
       <!-- footer main div -->
-       <div class=" lg:px-16 py-8 flex flex-col lg:flex-row lg:justify-between">
+      <div class="lg:px-16 py-8 flex flex-col lg:flex-row lg:justify-between">
         <!-- footer logo div-->
-         <div class="px-4 text-center lg:text-left">
+        <div class="px-4 text-center lg:text-left">
           <h1 class="secondary-title">Let's Connect</h1>
-          <p class="py-4">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.</p>
+          <p class="py-4">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Sunday through Thursday.
+          </p>
           <!-- icons div -->
-           <div class="text-3xl text-[#FD6E0A]">
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a class="ml-4" href=""><i class="fa-brands fa-linkedin-in"></i></a>
-           </div>
-         </div>
-
-         <!-- footer form div -->
-          <div class=" px-4 text-center mt-4 lg:mt-0 lg:text-left lg:ml-8">
-            <h1 class="secondary-title">Let's Inbox Me</h1>
-            <form class="py-4" action="">
-                <input class="w-[90%] lg:w-[80%] bg-[#fff] py-2 px-2 border-none rounded-md outline-none" type="text" name="" id="" placeholder="Your Name">
-                <input class="w-[90%] lg:w-[80%] bg-[#fff] py-2 px-2 border-none rounded-md outline-none my-4" type="email" name="" id="" placeholder="Your Email">
-                <textarea class="w-[90%] lg:w-[80%] bg-[#fff] h-24 py-2 px-2 border-none rounded-md outline-none" name="" id="" cols="30" rows="20" placeholder="Message"></textarea>
-                <input class="w-[90%] lg:w-[50%] btn-primary mt-4 lg:mt-2" type="submit" value="Submit">
-            </form>
+          <div class="text-3xl text-[#FD6E0A]">
+            <a href="https://www.facebook.com/mahmudur.rahman.921803/"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mahmudur-web-developer-bd/"
+              class="ml-4"
+              href=""
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </div>
+        </div>
 
-       </div>
-
+        <!-- footer form div -->
+        <div class="px-4 text-center mt-4 lg:mt-0 lg:text-left lg:ml-8">
+          <h1 class="secondary-title">Let's Inbox Me</h1>
+          <form class="py-4" action="">
+            <input
+              class="w-[90%] lg:w-[80%] bg-[#fff] py-2 px-2 border-none rounded-md outline-none"
+              type="text"
+              name=""
+              id=""
+              placeholder="Your Name"
+            />
+            <input
+              class="w-[90%] lg:w-[80%] bg-[#fff] py-2 px-2 border-none rounded-md outline-none my-4"
+              type="email"
+              name=""
+              id=""
+              placeholder="Your Email"
+            />
+            <textarea
+              class="w-[90%] lg:w-[80%] bg-[#fff] h-24 py-2 px-2 border-none rounded-md outline-none"
+              name=""
+              id=""
+              cols="30"
+              rows="20"
+              placeholder="Message"
+            ></textarea>
+            <input
+              class="w-[90%] lg:w-[50%] btn-primary mt-4 lg:mt-2"
+              type="submit"
+              value="Submit"
+            />
+          </form>
+        </div>
+      </div>
     </section>
-
-
   </body>
 </html>
